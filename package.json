@@ -1,5 +1,5 @@
 {
-  "name": "typescript-retry-decorator",
+  "name": "@nullcc/typescript-retry-decorator",
   "version": "2.0.2",
   "description": "A simple retry decorator for typescript with no dependency.",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
     "test": "jest",
     "example": "ts-node src/example.ts",
     "lint": "eslint --ext .ts src/",
-    "build": "tsc",
+    "build": "tsc -d -p .",
     "prepare": "npm run build"
   },
   "repository": {
