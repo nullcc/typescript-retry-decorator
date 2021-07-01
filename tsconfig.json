@@ -11,21 +11,22 @@
     "skipLibCheck": true,
     "lib": [
       "es2017",
-      "esnext.asynciterable",
+      "esnext.asynciterable"
     ],
     "outDir": "dist",
+    "declarationDir": "dist",
     "baseUrl": ".",
     "paths": {
       "*": [
-        "node_modules/*",
+        "node_modules/*"
       ]
     }
   },
   "include": [
-    "src/**/*",
+    "src/**/*"
   ],
   "exclude": [
     "node_modules",
-    "dist",
+    "dist"
   ]
 }
