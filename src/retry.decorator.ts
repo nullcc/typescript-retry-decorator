@@ -41,7 +41,7 @@ export function Retryable(options: RetryOptions): Function {
     } catch (e) {
       if (--maxAttempts < 0) {
         e?.message && console.error(e.message);
-        throw new MaxAttemptsError(e?.message);
+        throw Object.assign(new MaxAttemptsError(e?.message), e);
       }
       if (!canRetry(e)) {
         throw e;
