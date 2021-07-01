@@ -9,7 +9,8 @@
     "test": "jest",
     "example": "ts-node src/example.ts",
     "lint": "eslint --ext .ts src/",
-    "build": "tsc -d -p ."
+    "build": "tsc -d -p .",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
