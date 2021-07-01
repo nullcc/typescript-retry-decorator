@@ -1,5 +1,5 @@
 {
-  "name": "@nullcc/typescript-retry-decorator",
+  "name": "typescript-retry-decorator",
   "version": "2.0.3",
   "description": "A simple retry decorator for typescript with no dependency.",
   "main": "dist/index.js",
