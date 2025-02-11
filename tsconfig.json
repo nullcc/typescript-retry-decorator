@@ -28,6 +28,6 @@
   "exclude": [
     "node_modules",
     "dist",
-    "retry.decorator.test.ts"
+    "src/retry.decorator.test.ts"
   ]
 }
